@@ -3,8 +3,8 @@
 ## Current Workflow
 1. Create new folder in the camera for each race/division/category (4-50 boats)
 2. Folders with the RAW images are then imported onto a laptop/exteranl SSD (usually import every couple of categories/races)
-3. Folders imported into Adobe Lightroom. All images from all the folders appear at once, but remian sorted in their forlers
-4. All images are edited and then exported back to their respective folders in JPG format (RAWs also remian in those folders)
+3. Folders imported into Adobe Lightroom. All images from all the folders appear at once, but remain sorted in their forlers
+4. All images are edited and then exported back to their respective folders in JPG format (RAWs also remain in those folders)
 5. Edited JPGs only are uploaded to pre-made corresponding folders on our cloud based photo sales platform Zenfolio
 
 
@@ -29,3 +29,36 @@ After step 4 run through our software which creates a new folder for each bow nu
 - Could we potentially use race information such as the draw to help with the process?
 - Add metadata to photos then they decide how to organise?
 - Are there any similar programs you have found so far? If so what differences would you want?
+- Can we have some test data (folder from a regatta without watermark)
+- Assuming he wants it to run on laptops only?
+- MVP Requirements?
+- Deadline for MVP?
+
+## Answers
+- photos are uploaded in separate folders when multiple photographers are present
+e.g. bankside and start line folders
+- there isn't a public database but kit is happy to do it manually
+- yes but head race time trial style is more important as it occurs earlier in the year
+- use any information you want
+- metadata is fine doesn't affect size enough to care
+- similar program used for london marathon with facial recognition, however is
+business to consumer rather than business to business
+- general plan is to run mvp for a year on rowing so kit can test it all then 
+branch out to other sports as rowing is small market 
+- 
+
+## MVP Requirements
+- Bare minimum is metadata tagging, but ideally aim for:
+- Import edited photos to our software
+- User defines structure (by crew number, increments (i.e 1-25, 25-50 etc))
+  - Time trails, regattas, headraces: Only ever be increments of crew no. 
+  - For 2 photographers: Head of river, crews, bank, bridge.
+  - For regattas, may be complex structure but look at as-and-when
+  - Sometimes may sort by chunks of time or portions of a race
+- Exports sorted images by rearranging original folders
+- Only sort jpegs, keep same file name as RAW.
+
+## Deadlines
+- Good to test from October
+- Test at a few head events before Christmas
+- If good potentially develop something for Regatta season starting from late april, early may
